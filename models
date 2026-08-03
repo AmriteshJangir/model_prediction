@@ -1,0 +1,157 @@
+//Models used for prediction and cleaning and functional approaches
+1. Data Cleaning Models/Approaches
+Missing Value Imputation
+Mean/Median/Mode Imputation
+KNN Imputer
+MICE (Multiple Imputation)
+Regression Imputation
+
+Outlier Detection
+Z-Score
+IQR Method
+Isolation Forest
+Local Outlier Factor (LOF)
+One-Class SVM
+
+Duplicate Detection
+Exact Matching
+Fuzzy Matching
+Record Linkage
+
+Noise Reduction
+Moving Average
+Savitzky-Golay Filter
+Kalman Filter
+
+Data Validation
+Schema Validation
+Rule-Based Validation
+Constraint Checking
+2. Prediction Models
+Classification
+Logistic Regression
+Decision Tree
+Random Forest
+Extra Trees
+Support Vector Machine (SVM)
+Naive Bayes
+K-Nearest Neighbors (KNN)
+Gradient Boosting
+XGBoost
+LightGBM
+CatBoost
+Neural Networks
+Regression
+Linear Regression
+Ridge Regression
+Lasso Regression
+Elastic Net
+Random Forest Regressor
+Gradient Boosting Regressor
+XGBoost Regressor
+LightGBM Regressor
+CatBoost Regressor
+SVR
+MLP Regressor
+Time Series
+ARIMA
+SARIMA
+Prophet
+LSTM
+GRU
+Temporal Fusion Transformer (TFT)
+3. Clustering
+K-Means
+DBSCAN
+Hierarchical Clustering
+Gaussian Mixture Models (GMM)
+OPTICS
+Mean Shift
+4. Dimensionality Reduction
+PCA
+Kernel PCA
+LDA
+t-SNE
+UMAP
+Autoencoders
+5. NLP Models
+TF-IDF
+Word2Vec
+FastText
+GloVe
+BERT
+RoBERTa
+DistilBERT
+Sentence Transformers
+GPT-based Models
+Llama Models
+Mistral Models
+6. Recommendation Models
+Collaborative Filtering
+Content-Based Filtering
+Hybrid Recommenders
+Matrix Factorization
+Neural Collaborative Filtering
+7. Anomaly Detection
+Isolation Forest
+One-Class SVM
+Local Outlier Factor
+Autoencoder
+Elliptic Envelope
+8. Functional/Rule-Based Approaches
+Rule Engine
+Decision Tables
+Decision Trees
+Expert Systems
+Business Rules Engine
+Constraint Solver
+Knowledge Graph
+Ontology-Based Reasoning
+9. AutoML
+AutoSklearn
+H2O AutoML
+TPOT
+PyCaret
+AutoGluon
+FLAML
+10. Ensemble Methods
+Bagging
+Boosting
+Stacking
+Voting Classifier
+Voting Regressor
+Blending
+Example End-to-End AI Pipeline
+Raw Data
+      ↓
+Data Validation
+      ↓
+Missing Value Imputation
+      ↓
+Outlier Detection
+      ↓
+Duplicate Removal
+      ↓
+Feature Engineering
+      ↓
+Feature Selection
+      ↓
+Scaling & Encoding
+      ↓
+Model Selection
+      ↓
+Training
+      ↓
+Hyperparameter Tuning
+      ↓
+Prediction
+      ↓
+Confidence Scoring
+      ↓
+Explainability (SHAP/LIME)
+      ↓
+Rule-Based Validation
+      ↓
+Final Decision
+      ↓
+Monitoring & Retraining
