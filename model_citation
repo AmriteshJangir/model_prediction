@@ -1,0 +1,106 @@
+//predefined wordicts for model creation and prediction and judgementation
+Binary Verdicts
+Approved
+Rejected
+Accepted
+Declined
+Pass
+Fail
+Positive
+Negative
+Yes
+No
+True
+False
+Confidence-Based Verdicts
+Very High Confidence
+High Confidence
+Medium Confidence
+Low Confidence
+Very Low Confidence
+Uncertain
+Need More Data
+Risk Assessment
+No Risk
+Low Risk
+Moderate Risk
+High Risk
+Critical Risk
+Unknown Risk
+Decision Labels
+Recommended
+Not Recommended
+Conditionally Recommended
+Requires Manual Review
+Pending Review
+Escalated
+Fraud / Security
+Legitimate
+Suspicious
+Fraudulent
+Potential Fraud
+Needs Investigation
+Blocked
+Allowed
+Healthcare
+Healthy
+At Risk
+Critical
+Emergency
+Normal
+Abnormal
+Further Diagnosis Required
+Loan / Finance
+Loan Approved
+Loan Rejected
+Manual Verification Required
+Eligible
+Not Eligible
+Creditworthy
+High Default Risk
+Recruitment
+Selected
+Rejected
+Shortlisted
+On Hold
+Interview Required
+Offer Recommended
+Quality Inspection
+Pass
+Fail
+Minor Defect
+Major Defect
+Critical Defect
+Rework Required
+Sentiment Analysis
+Very Positive
+Positive
+Neutral
+Negative
+Very Negative
+Mixed
+Multi-Class Classification
+Class A
+Class B
+Class C
+Class D
+Unknown
+Other
+AI Judgment System
+Excellent
+Good
+Average
+Below Average
+Poor
+Not Enough Evidence
+Cannot Determine
+Needs Expert Review
+Final Decision Object (Example)
+{
+  "prediction": "Approved",
+  "confidence": 96.8,
+  "risk_level": "Low",
+  "reason": "Credit score above threshold and stable income.",
+  "requires_manual_review": false,
+  "final_verdict": "Approved"
+}
